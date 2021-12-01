@@ -1,0 +1,35 @@
+Compte rendu Semaine 1
+
+1.	Bouton ON/OFF
+
+  J’avais dans l’idée de commencer par programmer un bouton poussoir qui nous permettra d’allumer et d’éteindre la machine ou d’utiliser un interrupteur. Au final l’interrupteur est beaucoup plus simple car il n’y a pas de programme à faire, il faudra s’en charger à la fin, il alimente ou nous la machine.
+
+2.	Matériel à acheter 
+
+  Pour commencer nous avons revu tout notre projet et récupérer des conseils à propos de nos idées. Nous avons aussi récupéré tout le matériel nécessaire pour le commencer. Sur l’aspect construction nous avons eu des conseils pour mettre en forme l’effet courbé de notre jukebox, cette étape sera faite plus tard. 
+
+Matériel récupéré : 
+-	Lecteur MP3 et les HP
+-	Une RF : Bluetooth
+-	Un interrupteur 
+-	Un écran LCD plus grand 
+-	Les leds néopixels 
+
+3.	Déroulement de la séance
+    a.	Apprentissage du lecteur et se renseigner sur internet 
+
+https://www.carnetdumaker.net/articles/utiliser-un-lecteur-serie-de-fichiers-mp3-avec-une-carte-arduino-genuino/
+
+  J’ai pu récupérer une carte SD ou l’on va pouvoir mettre un maximum de chanson. Au départ nous voulions mettre 6 musiques relier à 6 boutons poussoir. Et l’idée de mettre un menu déroulant et simplement deux boutons (+ / -) et un bouton OK pour sélectionner la musique nous a séduite. Cette idée va être un peu plus dur à réaliser car il y a un menu déroulant et non des musiques définies. Myriam s’est donc chargée au final du lecteur MP3 et je me suis occupée des leds.
+    
+    b.	Néopixel Leds
+
+https://wiki.mchobby.be/index.php?title=NeoPixel-UserGuide-Arduino 
+
+  Je me suis donc chargée des leds, ne connaissant rien à ce sujet je me suis renseignée sur internet et un certain nombre de fonction était donné donc je les ai récupérés et essayés tous les programmes pour essayer de voir le plus compatible à notre projet. Au final j’ai adapté le programme à nos attentes et on a un joli enchainement de couleurs aléatoires faisant des allés retours.
+En revanche arrivé à un moment l’enchainement s’arrête sur une led aléatoire et recommence à la première. Je vais essayer de résoudre ce problème la semaine prochaine. 
+Et vu l’intensité des leds on a mettra du pvc tout autour sur notre jukebox. 
+
+c.	Choix des musiques
+
+  On a décidé de mettre des musiques de tous les âges et de tous les types. Une 15aine à peu près.
