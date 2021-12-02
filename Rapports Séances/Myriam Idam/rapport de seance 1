@@ -1,1 +1,99 @@
+RAPPORT 1ère Séance 
 
+ 
+
+ 
+
+Vision globale du jukebox 
+
+La première partie de la séance a essentiellement été d’écouter les conseils des professeurs quant à la manière de penser notre juke-box. Nous étions parties sur l’idée qu’il n’y aurait que 6 musiques et que pour chaque musique correspondait un bouton poussoir et une étiquette seulement il nous a été conseillé, au vu du grand stockage de la carte SD, d’enrichir le catalogue musical du jukebox et donc de changer de système de sélection de chansons. Il faut mettre en place des boutons permettant d’aller à gauche ou à droite pour faire défiler les chansons ainsi qu’un bouton pour les sélectioner.  
+
+ 
+
+Convertir musique sur YouTube en fichiers mp3 
+
+Au début de la séance, j’ai choisi les musiques que l’utilisateur du jukebox pourra écouter dur YouTube et je les ai convertis en fichiers sons mp3 grâce à un convertisseur en ligne.  Puis, je les ai transférés dans la carte SD qui se place ensuite dans le serial mp3 player. L’étape suivante a été de renommer les fichiers de la forme “XXX” pour pouvoir les utiliser dans le codage. 
+
+ 
+
+Pour l’instant, il n’y a que 11 chansons car ce n’était que la phase test.   
+
+Les 11 chansons :  
+
+001 :  ain’t no mountain high enough - Marvin Gaye & Tammi Terrell 
+
+002 : ABC - Jackson 5 
+
+003 : Don’t stop the music - Rihanna 
+
+004 : Earth, Wind & Fire - September 
+
+005 : Get down on it  -Kool & The Gang 
+
+006 : Hit the road Jack – Ray Charles 
+
+007 : Lady – Modjo 
+
+008 : Beat – it 
+
+009 : Never gonna give you up – Rick Astley 
+
+010 : On va s’aimer - Gilbert Montagné 
+
+011 : Young, Wild & Free – Wiz Khalifa/Snoop Dog 
+
+012 : Wesh alors - JUL 
+
+ 
+
+https://mp3y.download/fr/online-mp3-convert 
+
+Matériel récupéré : 
+
+RF Bluetooth 
+
+Interrupteur O/I 
+
+Haut-parleurs (GF 1002) 
+
+Serial mp3 Player v1.0 
+
+Choix : écran LCD 2004A 
+
+LEDs Néo-pixels 
+
+ 
+
+Recherche internet sur l’utilisation du lecteur mp3 et écran LCD 
+
+https://usermanual.wiki/Pdf/Serial20MP320Player20v10120Manual.2117229468/view 
+
+https://www.arduinolibraries.info/libraries/serial-mp3-player
+
+
+J’ai fait des recherches sur comment utiliser un lecteur mp3 et j’ai pu observer quelques exemples de codage. Cependant, je n’ai trouvé pas pu trouver d’exemple de montage avec la version 1.0 du serial Mp3 Player mais que des exemples avec des autres versions. 
+
+--> Montage pour lier lecteur mp3 contenant les fichiers sons et les haut-parleurs
+
+Utiliser un lecteur série de fichiers MP3 avec une carte Arduino / Genuino | Carnet du maker - L'esprit Do It Yourself 
+
+L’écran LCD n’a pas été vu en cours donc j’ai pris connaissance du cours et j’ai fait un essai de programme et de montage  :  
+
+ 
+
+#include<LiquidCrystal.h> 
+
+LiquidCrystal lcd(2,3,4,5,6,7); 
+
+void setup() { 
+
+  lcd.begin(16,2); 
+
+  lcd.begin(0,0); 
+
+  lcd.print(); 
+
+
+ 
+
+http://users.polytech.unice.fr/~pmasson/Enseignement/Arduino%20Projection%20-%20MASSON.pdf 
